@@ -1,0 +1,38 @@
+/* CSS declarations go here */
+.hidden_div{
+	display:none;
+}
+
+.glyphicon-trash {
+	background: transparent;
+	border: solid 2px #FFF;
+	opacity: 0.2;
+}
+
+.glyphicon-trash:hover {
+	background-color: transparent;
+	color: red;
+	opacity: 1;
+}
+.comments h4, .comments, .corrections {
+	display: inline-block;;
+}
+.corrections {
+	position: absolute;
+	right: 50px;;
+}
+.add-comment, .sorting{
+	position:  absolute;
+	right: 50px;
+
+}
+.hidden_div{
+	padding-top: 20px;
+}
+.move-down{
+	padding-top: 100px;
+}
+.sorting p{
+	right: -50px;
+	position: relative;
+}

@@ -1,0 +1,24 @@
+<template name="SingleWebsiteItem">
+    <div class="container move-down">
+        <a href="/"><button class="btn btn-success">back to list</button></a>
+        {{> WebsiteItem}}
+
+        {{> CommentForm}}
+            {{#if comments}}
+                <h3>Users comments: </h3>{{totalComments}}
+                <hr />
+                {{# each comments}}
+                    <p><small>user: {{commentBy}} --- {{commentAt}}</small></p>
+                    <div class="comments">
+                            <h4>{{comment}}</h4>
+                        <div class="corrections">
+                            <button class="glyphicon glyphicon-trash"></button>
+                        </div>
+                    </div>
+                    <hr />
+                {{/each}}
+            {{else}}
+                <h4>There are currently no comments for this website</h4>
+            {{/if}}
+    </div>
+</template>

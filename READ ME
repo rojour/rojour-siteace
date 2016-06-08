@@ -1,0 +1,18 @@
+Consideration:
+
+1. The file system is different to the one learned at the Coursera class.
+    I don't like to have all templates in one page. I found difficult to
+    find things. Same goes for the .js files for the events and the helpers.
+    Hope you like it.
+2. I found the rules of sorting a bit confusing. I posted on the forum an
+    found that other people found the same issue. The moderator said that
+    it was done on purpose.
+    I decided to add a button to change those choices.
+3. Comments added by the users are ordered by the newest ones first. To me
+    that's what makes more sense. I could have added a button to me able to
+    change that, but I found quite complicated to that and don't see much of
+    point of doing that.
+    I hope this is acceptable to you.
+4. BUTTON TO DELETE THE COMMENTS - ONLY BY THE WRITER
+5. Users are only allowed to vote a site up and/or down once. If the user attempts
+    a second time, a banner will inform that they are not allowed to do that.

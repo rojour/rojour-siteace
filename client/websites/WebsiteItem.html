@@ -1,0 +1,17 @@
+<template name="WebsiteItem">
+    <div class="container">
+        <li>
+        	<h3><a href="{{url}}">{{title}}</a></h3>
+        	<p>
+        		{{description}}
+        	</p>
+            {{> Voting}}
+            <p> Page added on {{createdAt}}</p>
+            <p>
+                See or leave a <a href="/website/{{this._id}}">comment</a>
+            </p>
+            <hr />
+        	<!-- you will be putting your up and down vote buttons in here! -->
+        </li>
+    </div>
+</template>

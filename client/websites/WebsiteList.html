@@ -1,0 +1,20 @@
+<template name="WebsiteList">
+    <div class="container move-down">
+        {{> WebsiteForm}}
+        <div class="btn-group sorting" role="group" aria-label="...">
+            <p >
+                sorting
+            </p>
+
+              <button type="button" class=" js-sort-by-up btn btn-default">Up</button>
+              <button type="button" class="js-sort-by-diff btn btn-default">Diff</button>
+              <button type="button" class="js-sort-by-down btn btn-default">Down</button>
+        </div>
+      <hr />
+    	<ol>
+    	{{#each websites}}
+    	   {{> WebsiteItem}}
+    	{{/each}}
+    	</ol>
+    </div>
+</template>
